@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PhoneBook </string>
+    <string name="email">Email :%s</string>
+    <string name="phone">Phone :%s</string>
+    <string name="name">Name  :%s</string>
+    <string name="email_hint">Email :</string>
+    <string name="phone_hint">Phone :</string>
+    <string name="name_hint">Name :</string>
+    <string name="submit">SUBMIT</string>
+    <string name="delete">delete</string>
+</resources>
