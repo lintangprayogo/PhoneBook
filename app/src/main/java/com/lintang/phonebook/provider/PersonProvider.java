@@ -100,6 +100,7 @@ public class PersonProvider extends ContentProvider {
                     updated=0;
         }
 
+        getContext().getContentResolver().notifyChange(CONTENT_URI,new MainActivity.DataObserver(new Handler(),getContext()));
         return updated;
     }
 }
